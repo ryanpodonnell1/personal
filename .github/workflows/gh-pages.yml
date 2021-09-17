@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0   
-          repository: 'matcornic/hugo-theme-learn'
+          repository: 'github.com/matcornic/hugo-theme-learn'
           path: 'sites/themes/'
 
       - name: Setup Hugo
@@ -26,7 +26,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build
-        run: cd site && hugo --minify
+        run: cd site && hugo --minify -D
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
