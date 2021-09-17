@@ -1,0 +1,5 @@
+baseURL = 'http://ryanpodonnell1.github.io/'
+languageCode = 'en-us'
+title = 'Personal Site'
+theme = 'hugo-theme-learn'
+home = [ "HTML", "RSS", "JSON"]
