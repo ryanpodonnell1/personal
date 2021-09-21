@@ -5,18 +5,18 @@
 <meta name=generator content="Hugo 0.88.1">
 <meta name=description content>
 <link rel=icon href=/images/favicon.png type=image/png>
-<title>Personal Site :: Personal Site</title>
-<link href=/css/nucleus.css?1631923325 rel=stylesheet>
-<link href=/css/fontawesome-all.min.css?1631923325 rel=stylesheet>
-<link href=/css/hybrid.css?1631923325 rel=stylesheet>
-<link href=/css/featherlight.min.css?1631923325 rel=stylesheet>
-<link href=/css/perfect-scrollbar.min.css?1631923325 rel=stylesheet>
-<link href=/css/auto-complete.css?1631923325 rel=stylesheet>
-<link href=/css/atom-one-dark-reasonable.css?1631923325 rel=stylesheet>
-<link href=/css/theme.css?1631923325 rel=stylesheet>
-<link href=/css/tabs.css?1631923325 rel=stylesheet>
-<link href=/css/hugo-theme.css?1631923325 rel=stylesheet>
-<script src=/js/jquery-3.3.1.min.js?1631923325></script>
+<title>Homepage :: Blog</title>
+<link href=/css/nucleus.css?1632255003 rel=stylesheet>
+<link href=/css/fontawesome-all.min.css?1632255003 rel=stylesheet>
+<link href=/css/hybrid.css?1632255003 rel=stylesheet>
+<link href=/css/featherlight.min.css?1632255003 rel=stylesheet>
+<link href=/css/perfect-scrollbar.min.css?1632255003 rel=stylesheet>
+<link href=/css/auto-complete.css?1632255003 rel=stylesheet>
+<link href=/css/atom-one-dark-reasonable.css?1632255003 rel=stylesheet>
+<link href=/css/theme.css?1632255003 rel=stylesheet>
+<link href=/css/tabs.css?1632255003 rel=stylesheet>
+<link href=/css/hugo-theme.css?1632255003 rel=stylesheet>
+<script src=/js/jquery-3.3.1.min.js?1632255003></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
 <body data-url=/>
@@ -31,10 +31,10 @@
 <input data-search-input id=search-by type=search placeholder=Search...>
 <span data-search-clear><i class="fas fa-times"></i></span>
 </div>
-<script type=text/javascript src=/js/lunr.min.js?1631923325></script>
-<script type=text/javascript src=/js/auto-complete.js?1631923325></script>
+<script type=text/javascript src=/js/lunr.min.js?1632255003></script>
+<script type=text/javascript src=/js/auto-complete.js?1632255003></script>
 <script type=text/javascript>var baseurl="http://ryanpodonnell1.github.io/"</script>
-<script type=text/javascript src=/js/search.js?1631923325></script>
+<script type=text/javascript src=/js/search.js?1632255003></script>
 </div>
 <section id=homelinks>
 <ul>
@@ -45,20 +45,32 @@
 </section>
 <div class=highlightable>
 <ul class=topics>
-<li data-nav-id=/basics/ title=Basics class="dd-item
-active">
-<a href=/basics/>
-Basics
+<li data-nav-id=/engineering/ title=Engineering class=dd-item>
+<a href=/engineering/>
+Engineering
 </a>
 <ul>
-<li data-nav-id=/basics/second-content/ title="Second Content" class=dd-item>
-<a href=/basics/second-content/>
-Second Content
+<li data-nav-id=/engineering/programming/ title=Programming class=dd-item>
+<a href=/engineering/programming/>
+Programming
+</a>
+<ul>
+<li data-nav-id=/engineering/programming/terraform/ title=Terraform class=dd-item>
+<a href=/engineering/programming/terraform/>
+Terraform
+</a>
+<ul>
+<li data-nav-id=/engineering/programming/terraform/environment_variables/ title class=dd-item>
+<a href=/engineering/programming/terraform/environment_variables/>
 </a>
 </li>
-<li data-nav-id=/basics/first-content/ title="First Content" class=dd-item>
-<a href=/basics/first-content/>
-First Content
+</ul>
+</li>
+</ul>
+</li>
+<li data-nav-id=/engineering/skills/ title=Skillset class=dd-item>
+<a href=/engineering/skills/>
+Skillset
 </a>
 </li>
 </ul>
@@ -78,35 +90,60 @@ First Content
 <span id=sidebar-toggle-span>
 <a href=# id=sidebar-toggle data-sidebar-toggle><i class="fas fa-bars"></i> navigation</a>
 </span>
-<h1>Customize your own home page</h1>
-<p>
-The site is working. Don't forget to customize this homepage with your own. You typically have 3 choices :
-</p>
+<h3 id=purpose-of-this-site>Purpose of this site</h3>
+<p>This site is intended to capture thoughts, notes and other experiences that I feel have shaped my career and I find important or interesting. All information on this site is my opinion and no one elses.</p>
+<h3 id=a-litle-about-me>A litle about me</h3>
+<p><strong>Name</strong>: Ryan ODonnell</p>
+<p><strong>Location</strong>: Charleston, SC</p>
+<p><strong>Bio</strong>: I have been in the Security industry since 2011 and have had several roles including IT Auditor, Network Engineer, Professional Services (WAF and DB Monitoring) and now Cloud Security Engineer. I enjoy programming and tinkering with new tech</p>
+<h3 id=projects>Projects</h3>
+<p>Some of the professional projects I am extremely proud of are:</p>
 <ul>
-<li><b>1. </b> Create an _index.md document in <b>content</b> folder and fill it with Markdown content</li>
-<li><b>2. </b> Create an <b>index.html</b> file in the <b>static</b> folder and fill the file with HTML content</li>
-<li><b>3. </b> Configure your server to automatically redirect home page to one your documentation page</li>
+<li>90+ AWS account Transit Gateway migration from a Transit VPC Architecture</li>
+<li>Custom Log Parsing Application (written in GO) that created a highly scalable method of writing messages to a Kafka cluster</li>
+<li>Kubernetes Admissions Controller using a Gin API to validate kubernetes objects</li>
 </ul>
+<h3 id=personal-sites>Personal Sites</h3>
+<table>
+<thead>
+<tr>
+<th>Site</th>
+<th>Url</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>github</td>
+<td><a href=https://github.com/ryanpodonnell1>https://github.com/ryanpodonnell1</a></td>
+</tr>
+<tr>
+<td>linkedin</td>
+<td><a href=https://www.linkedin.com/in/ryanpatrickodonnell/>https://www.linkedin.com/in/ryanpatrickodonnell/</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id=_sidenote_><em>Sidenote</em></h4>
+<p>I would not be where I am today without my beautiful wife and 2 sons. They are the thing that keeps me going.</p>
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-next" href=/basics/ title=Basics style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-next" href=/engineering/ title=Engineering style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
 <div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
 </div>
-<script src=/js/clipboard.min.js?1631923325></script>
-<script src=/js/perfect-scrollbar.min.js?1631923325></script>
-<script src=/js/perfect-scrollbar.jquery.min.js?1631923325></script>
-<script src=/js/jquery.sticky.js?1631923325></script>
-<script src=/js/featherlight.min.js?1631923325></script>
-<script src=/js/highlight.pack.js?1631923325></script>
+<script src=/js/clipboard.min.js?1632255003></script>
+<script src=/js/perfect-scrollbar.min.js?1632255003></script>
+<script src=/js/perfect-scrollbar.jquery.min.js?1632255003></script>
+<script src=/js/jquery.sticky.js?1632255003></script>
+<script src=/js/featherlight.min.js?1632255003></script>
+<script src=/js/highlight.pack.js?1632255003></script>
 <script>hljs.initHighlightingOnLoad()</script>
-<script src=/js/modernizr.custom-3.6.0.js?1631923325></script>
-<script src=/js/learn.js?1631923325></script>
-<script src=/js/hugo-learn.js?1631923325></script>
-<script src=/mermaid/mermaid.js?1631923325></script>
+<script src=/js/modernizr.custom-3.6.0.js?1632255003></script>
+<script src=/js/learn.js?1632255003></script>
+<script src=/js/hugo-learn.js?1632255003></script>
+<script src=/mermaid/mermaid.js?1632255003></script>
 <script>mermaid.initialize({startOnLoad:!0})</script>
 </body>
 </html>

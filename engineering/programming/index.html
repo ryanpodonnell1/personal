@@ -5,21 +5,21 @@
 <meta name=generator content="Hugo 0.88.1">
 <meta name=description content>
 <link rel=icon href=/images/favicon.png type=image/png>
-<title>Basics :: Personal Site</title>
-<link href=/css/nucleus.css?1631923325 rel=stylesheet>
-<link href=/css/fontawesome-all.min.css?1631923325 rel=stylesheet>
-<link href=/css/hybrid.css?1631923325 rel=stylesheet>
-<link href=/css/featherlight.min.css?1631923325 rel=stylesheet>
-<link href=/css/perfect-scrollbar.min.css?1631923325 rel=stylesheet>
-<link href=/css/auto-complete.css?1631923325 rel=stylesheet>
-<link href=/css/atom-one-dark-reasonable.css?1631923325 rel=stylesheet>
-<link href=/css/theme.css?1631923325 rel=stylesheet>
-<link href=/css/tabs.css?1631923325 rel=stylesheet>
-<link href=/css/hugo-theme.css?1631923325 rel=stylesheet>
-<script src=/js/jquery-3.3.1.min.js?1631923325></script>
+<title>Programming :: Blog</title>
+<link href=/css/nucleus.css?1632255003 rel=stylesheet>
+<link href=/css/fontawesome-all.min.css?1632255003 rel=stylesheet>
+<link href=/css/hybrid.css?1632255003 rel=stylesheet>
+<link href=/css/featherlight.min.css?1632255003 rel=stylesheet>
+<link href=/css/perfect-scrollbar.min.css?1632255003 rel=stylesheet>
+<link href=/css/auto-complete.css?1632255003 rel=stylesheet>
+<link href=/css/atom-one-dark-reasonable.css?1632255003 rel=stylesheet>
+<link href=/css/theme.css?1632255003 rel=stylesheet>
+<link href=/css/tabs.css?1632255003 rel=stylesheet>
+<link href=/css/hugo-theme.css?1632255003 rel=stylesheet>
+<script src=/js/jquery-3.3.1.min.js?1632255003></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/basics/>
+<body data-url=/engineering/programming/>
 <nav id=sidebar>
 <div id=header-wrapper>
 <div id=header>
@@ -31,10 +31,10 @@
 <input data-search-input id=search-by type=search placeholder=Search...>
 <span data-search-clear><i class="fas fa-times"></i></span>
 </div>
-<script type=text/javascript src=/js/lunr.min.js?1631923325></script>
-<script type=text/javascript src=/js/auto-complete.js?1631923325></script>
+<script type=text/javascript src=/js/lunr.min.js?1632255003></script>
+<script type=text/javascript src=/js/auto-complete.js?1632255003></script>
 <script type=text/javascript>var baseurl="http://ryanpodonnell1.github.io/"</script>
-<script type=text/javascript src=/js/search.js?1631923325></script>
+<script type=text/javascript src=/js/search.js?1632255003></script>
 </div>
 <section id=homelinks>
 <ul>
@@ -45,21 +45,35 @@
 </section>
 <div class=highlightable>
 <ul class=topics>
-<li data-nav-id=/basics/ title=Basics class="dd-item
-parent
-active">
-<a href=/basics/>
-Basics
+<li data-nav-id=/engineering/ title=Engineering class="dd-item
+parent">
+<a href=/engineering/>
+Engineering
 </a>
 <ul>
-<li data-nav-id=/basics/second-content/ title="Second Content" class=dd-item>
-<a href=/basics/second-content/>
-Second Content
+<li data-nav-id=/engineering/programming/ title=Programming class="dd-item
+parent
+active">
+<a href=/engineering/programming/>
+Programming
+</a>
+<ul>
+<li data-nav-id=/engineering/programming/terraform/ title=Terraform class=dd-item>
+<a href=/engineering/programming/terraform/>
+Terraform
+</a>
+<ul>
+<li data-nav-id=/engineering/programming/terraform/environment_variables/ title class=dd-item>
+<a href=/engineering/programming/terraform/environment_variables/>
 </a>
 </li>
-<li data-nav-id=/basics/first-content/ title="First Content" class=dd-item>
-<a href=/basics/first-content/>
-First Content
+</ul>
+</li>
+</ul>
+</li>
+<li data-nav-id=/engineering/skills/ title=Skillset class=dd-item>
+<a href=/engineering/skills/>
+Skillset
 </a>
 </li>
 </ul>
@@ -83,11 +97,17 @@ First Content
 </span>
 <span id=toc-menu><i class="fas fa-list-alt"></i></span>
 <span class=links>
-<a href=/>Personal Site</a> > Basics
+<a href=/>Homepage</a> > <a href=/engineering/>Engineering</a> > Programming
 </span>
 </div>
 <div class=progress>
 <div class=wrapper>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#purpose>Purpose</a></li>
+<li><a href=#languages-of-choice>Languages of choice</a></li>
+</ul>
+</nav>
 </div>
 </div>
 </div>
@@ -96,31 +116,61 @@ First Content
 </div>
 <div id=body-inner>
 <h1>
-Basics
+Programming
 </h1>
+<h2 id=purpose>Purpose</h2>
+<p>This page is intended to capture tricks, lesson&rsquo;s learned, etc for all and anything programming.</p>
+<h2 id=languages-of-choice>Languages of choice</h2>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bash</td>
+</tr>
+<tr>
+<td>python</td>
+</tr>
+<tr>
+<td><a href=/engineering/programming/terraform/>Terraform</a></td>
+</tr>
+<tr>
+<td>Serverless</td>
+</tr>
+<tr>
+<td>Go</td>
+</tr>
+<tr>
+<td>Docker</td>
+</tr>
+</tbody>
+</table>
 <footer class=footline>
 </footer>
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-prev" href=/ title="Personal Site"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/basics/second-content/ title="Second Content" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/engineering/ title=Engineering> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/engineering/programming/terraform/ title=Terraform style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
 <div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
 </div>
-<script src=/js/clipboard.min.js?1631923325></script>
-<script src=/js/perfect-scrollbar.min.js?1631923325></script>
-<script src=/js/perfect-scrollbar.jquery.min.js?1631923325></script>
-<script src=/js/jquery.sticky.js?1631923325></script>
-<script src=/js/featherlight.min.js?1631923325></script>
-<script src=/js/highlight.pack.js?1631923325></script>
+<script src=/js/clipboard.min.js?1632255003></script>
+<script src=/js/perfect-scrollbar.min.js?1632255003></script>
+<script src=/js/perfect-scrollbar.jquery.min.js?1632255003></script>
+<script src=/js/jquery.sticky.js?1632255003></script>
+<script src=/js/featherlight.min.js?1632255003></script>
+<script src=/js/highlight.pack.js?1632255003></script>
 <script>hljs.initHighlightingOnLoad()</script>
-<script src=/js/modernizr.custom-3.6.0.js?1631923325></script>
-<script src=/js/learn.js?1631923325></script>
-<script src=/js/hugo-learn.js?1631923325></script>
-<script src=/mermaid/mermaid.js?1631923325></script>
+<script src=/js/modernizr.custom-3.6.0.js?1632255003></script>
+<script src=/js/learn.js?1632255003></script>
+<script src=/js/hugo-learn.js?1632255003></script>
+<script src=/mermaid/mermaid.js?1632255003></script>
 <script>mermaid.initialize({startOnLoad:!0})</script>
 </body>
 </html>
